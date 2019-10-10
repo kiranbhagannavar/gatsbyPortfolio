@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
 .header {
-    padding: 1rem 0 3rem;
+    padding: 2rem 26px 3rem;
+    // background-color: #9b9b844f;
+    margin-left: -18px;
+    margin-right: -18px;
+    margin-top: -20px;
 }
 
 .title {
-    color: #000000;
-    font-size: 3rem;
+    
     text-decoration: none;
+    float: left;
+	font: normal 48px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
 }
 
 .nav-list {
+    float: right;
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin: -14px;
+    font-weight: bold;
 }
 
 .nav-item {
-    color: #999999;
+    color: #fff;
     font-size: .9em;
     margin-right: 1.3rem;
     text-decoration: none;
@@ -26,5 +37,17 @@
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #ff4e4e;
 }
+
+// border-radius: 65% 75%;
+// border: 1px solid #eee;
+// display: inline-block;
+// height: 44px;
+// margin: 0 20px 0 0;
+// overflow: hidden;
+// width: 44px;
+// -webkit-transition: all 0.5s;
+// -webkit-transition: all 0.5s;
+// transition: all 0.5s;
+// }
