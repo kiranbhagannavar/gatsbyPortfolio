@@ -17,6 +17,13 @@ const IndexPage = () => {
                             },
                             "size": {
                                 "value": 3
+                            },
+                            "line_linked": {
+                                "shadow": {
+                                    "enable": true,
+                                    "color": "#00bbff",
+                                    "blur": 9 
+                                }
                             }
                         },
                         "interactivity": {
